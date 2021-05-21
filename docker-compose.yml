@@ -3,6 +3,6 @@ services:
   server:
     build: .
     ports:
-      - "8080:8080"
+      - "8090:8090"
     volumes:
       - ./src:/tmp/hapi-fhir54-jpaserver-starter/src/ 
