@@ -19,7 +19,7 @@ hapi:
         fhir_version: R4
         name: "Local Tester"
         refuse_to_fetch_third_party_urls: false
-        server_address: "http://localhost:8090/"
+        server_address: "http://localhost:8090/fhir"
 spring: 
   batch: 
     job: 

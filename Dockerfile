@@ -9,4 +9,4 @@ RUN mvn clean install -DskipTests
 
 EXPOSE 8090
 
-CMD ["mvn", "jetty:run"]
+CMD ["mvn", "jetty:run", "-Djetty.http.port=8090"]
